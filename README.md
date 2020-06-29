@@ -14,5 +14,12 @@ Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `req
 ## How to execute
 Train a new model starting from pre-trained COCO weights
 ```
-python3 balloon.py train --dataset=/path/to/balloon/dataset --weights=coco
+python3 samples\ship\ship.py train --dataset=/path/to/ship/dataset --weights=coco
 ```
+Resume training a model that you had trained earlier
+```
+python3 samples\ship\ship.py train --dataset=/path/to/ship/dataset --weights=last
+```
+
+## Run Jupyter notebooks
+Open the  `inspect_ship_model.ipynb` Jupter notebooks. You can use these notebooks to run through the detection pipelie step by step and compute mAP.
