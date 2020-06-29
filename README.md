@@ -1,7 +1,7 @@
 # Instance Segmentation for ships in satellite imagery
 
 ## Introduction
-This is an Instance Segmentation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
+This is an Instance Segmentation task for [ships in satellite imagery](https://www.kaggle.com/rhammell/ships-in-satellite-imagery) based on  [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 ## Introduction
 * Source code of Mask R-CNN built on FPN and ResNet101.
